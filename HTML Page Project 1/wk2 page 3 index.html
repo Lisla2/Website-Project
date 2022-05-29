@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width,initial-scale=1.0">
+    <title>Monsters</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<!--Bypass Block for Accessibility-->
+<a class="skip-to-content-link" href="#main3">Skip to Main Content</a>
+<section>
+    <header>
+        <nav class="navbar" role="navigation">
+                <ul class="nobullets" >
+                    <li class="linkfont"><!--suppress HtmlDeprecatedAttribute -->
+                     <a href="index.html" role="button" name="Main Page Navigation" tabindex="1">Main Page</a></li>
+                    <li class="linkfont"><a href="wk2%20page%202%20index.html" role="button" name="Modern Day Tales Accounts Navigation" tabindex="2"> Modern Day</a></li>
+                </ul>
+        </nav>
+    </header>
+</section>
+
+<section class="grid-container3 transition1" id="main3">
+<h1 class="topheader" role="heading"> Other American Folklore Creatures</h1>
+    <article class="content9">
+    <p class="paragraph" role="contentinfo"> There are numerous other folklore creatures throughout the country. Here are a few:</p>
+        <ul class="nobullets" role="list">
+        <li> <a> Mishepeshu</a> </li>
+        <li> <a> Jersey Devil</a> </li>
+        <li> <a> Chupacabra</a> </li>
+        <li><a> Mothman</a></li>
+        </ul>
+
+        <h2 class="secondheader"> Survey</h2>
+        <p class="center"> Feel free to take this survey and share your thoughts.</p>
+
+
+        <div class="survey-content">
+            <form id="survey-form">
+
+            </form>
+            <p> <label id="age"> Enter your age.</label></p>
+            <p><input id="number" type="number" required placeholder="Enter your age" /></p>
+
+
+            <p><label>Which region in the US are you in?</label></p>
+
+            <select name="options" id="regions">
+
+                <option value="west">West</option>
+                <option value="southwest">Southwest</option>
+                <option value="south">South</option>
+                <option value="midwest">Midwest</option>
+                <option value="northeast">Northeast</option>
+                <option value="outside">I don't live in the US.</option>
+            </select>
+
+
+            <p><label id="question"> What folklore creatures have you heard of? </label></p>
+
+            <p><input id="question2" required placeholder="Enter your response" /></p>
+
+
+            <legend>Which creature would you rather fist-fight at night?</legend>
+
+            <input type="radio" name="action" id= "Hairy-Man" /><label for="Hairy-Man">Hairy Man/Bigfoot</label><br />
+            <input type="radio" name="action" id= "Skinwalker" /><label for="Skinwalker">Skinwalker</label><br />
+            <input type="radio" name="action" id= "Wendigo" /><label for="Wendigo">Wendigo</label><br />
+            <input type="radio" name="action" id= "Thunderbird" /><label for="Thunderbird">Thunderbird</label><br />
+            <input type="radio" name="action" id= "mothman" /><label for="mothman">Mothman</label><br />
+            <input type="radio" name="action" id= "chupacabra" /><label for="chupacabra">Chupacabra</label><br />
+            <input type="radio" name="action" id= "aliens" /><label for="aliens">aliens</label><br />
+
+            <p class="center"><button type="submit" id="submit">Submit</button></p>
+
+        </div>
+
+
+    </article>
+
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+<script>
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+    <footer role="contentinfo">
+        <p> Blogging by Lisette &copy;</p>
+    </footer>
+
+</section>
+
+</body>
+
+</html>
+
+
